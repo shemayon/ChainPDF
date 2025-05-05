@@ -5,7 +5,7 @@ client = AsyncOpenAI()
 cl.instrument_openai()
 
 settings = {
-    "model": "gpt-4o-mini",
+    "model": "gpt-4o",
     "temperature" : 0.3
 }
 
